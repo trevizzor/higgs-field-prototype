@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Higgs Field Prototype</title>
+    <title>Higgs Field Playground</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Higgs Field Prototype</h1>
-    <p>Drag the boson into the Higgs field to give it mass!</p>
+    <h1>Higgs Field Playground</h1>
+    <p>Drag the particles into the Higgs field to discover which gain mass!</p>
+
     <div id="higgs-field">
-        <div id="boson" draggable="true">🟢</div>
+        <div class="particle" id="higgs" draggable="true">Higgs</div>
+        <div class="particle" id="photon" draggable="true">Photon</div>
+        <div class="particle" id="gluon" draggable="true">Gluon</div>
+        <div class="particle" id="wboson" draggable="true">W Boson</div>
+        <div class="particle" id="zboson" draggable="true">Z Boson</div>
     </div>
+
     <div id="message"></div>
+    <button id="howDoWeKnowBtn">How do we know?</button>
+    <div id="howDoWeKnowPanel" class="hidden">
+        <h2>How do we know?</h2>
+        <p>
+            In 2012, physicists at CERN discovered the Higgs boson by smashing particles together in the Large Hadron Collider. 
+            This confirmed the existence of the Higgs field, the invisible field that gives some particles mass.
+        </p>
+        <button id="closePanelBtn">Close</button>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
