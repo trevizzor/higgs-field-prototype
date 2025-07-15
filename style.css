@@ -63,11 +63,11 @@ p {
     color: #fff;
 }
 
-#higgs { top: -100px; left: 50%; transform: translateX(-50%); }
-#photon { top: 50%; left: -100px; transform: translateY(-50%); }
-#gluon { bottom: -100px; left: 50%; transform: translateX(-50%); }
-#wboson { top: 50%; right: -100px; transform: translateY(-50%); }
-#zboson { top: 20px; right: -120px; }
+#higgs { top: -250px; left: 50%; transform: translateX(-50%); }
+#photon { top: 50%; left: -250px; transform: translateY(-50%); }
+#gluon { bottom: -250px; left: 50%; transform: translateX(-50%); }
+#wboson { top: 50%; right: -250px; transform: translateY(-50%); }
+#zboson { top: -300px; right: 200px; }
 
 #message {
     margin-top: 20px;
