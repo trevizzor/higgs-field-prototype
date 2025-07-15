@@ -63,11 +63,11 @@ p {
     color: #fff;
 }
 
-#higgs { top: 20px; left: 20px; }
-#photon { top: 100px; left: 20px; }
-#gluon { top: 180px; left: 20px; }
-#wboson { top: 260px; left: 20px; }
-#zboson { top: 340px; left: 20px; }
+#higgs { top: 50px; left: -120px; }
+#photon { top: 300px; left: -120px; }
+#gluon { top: 550px; left: -120px; }
+#wboson { top: 150px; right: -120px; }
+#zboson { top: 400px; right: -120px; }
 
 #message {
     margin-top: 20px;
