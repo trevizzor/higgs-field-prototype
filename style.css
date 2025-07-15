@@ -23,7 +23,7 @@ p {
     border: 3px solid #00ffff;
     border-radius: 50%;
     position: relative;
-    overflow: hidden;
+/*  overflow: hidden; */
     background: radial-gradient(circle, rgba(0, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.8) 70%);
 }
 
@@ -63,11 +63,11 @@ p {
     color: #fff;
 }
 
-#higgs { top: -150px; left: 50%; transform: translateX(-50%); }
-#photon { top: 50%; left: -150px; transform: translateY(-50%); }
-#gluon { bottom: -150px; left: 50%; transform: translateX(-50%); }
-#wboson { top: 50%; right: -150px; transform: translateY(-50%); }
-#zboson { top: -200px; right: 150px; }
+#higgs { top: 20px; left: 20px; }
+#photon { top: 100px; left: 20px; }
+#gluon { top: 180px; left: 20px; }
+#wboson { top: 260px; left: 20px; }
+#zboson { top: 340px; left: 20px; }
 
 #message {
     margin-top: 20px;
